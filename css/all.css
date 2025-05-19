@@ -1,14 +1,18 @@
 @font-face {
     font-family: 'soulmaze';
-    src: url('/fonts/MADE\ Soulmaze\ PERSONAL\ USE.otf');
+    src: url('../fonts/MADE\ Soulmaze\ PERSONAL\ USE.otf');
 }
 @font-face {
     font-family: 'franklin-gothic-heavy';
-    src: url('/fonts/FranklinGothic.ttf');
+    src: url('../fonts/FRAHV.TTF');
 }
 body {
     background-color: black;
     font-family: soulmaze;
+}
+.bodytext {
+    font-family: franklin-gothic-heavy;
+    font-weight: bolder;
 }
 .here {
     color: #f3c340;
@@ -51,4 +55,10 @@ footer {
 }
 .rig {
     margin-right: 100px;
+}
+.jump {
+    transition: transform 1.2s;
+}
+.jump:hover {
+    transform: scale(1.2);
 }
