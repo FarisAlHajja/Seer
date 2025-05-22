@@ -47,14 +47,12 @@ body {
 .header, .footer {
     font-size: 2em;
 }
-footer {
-    color:#c15b27;
-}
 .yellow {
     color: #f3c340;
 }
 .rig {
     margin-right: 100px;
+    color:#c15b27;
 }
 .jump {
     transition: transform 1.2s;
