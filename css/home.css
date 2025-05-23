@@ -1,0 +1,33 @@
+.stars {
+    height: 100vh;
+    width: 100%;
+}
+.starsc {
+    position: absolute;
+    z-index: -2;
+    width: 40%;
+    margin-left: -20px;
+    top: 0;
+}
+.seer {
+    width: 100%;
+    margin-left: 40%;
+    z-index: 0;
+    border-image: linear-gradient(to bottom, #fff21e 0%, #ff0a17 100%) 1;
+    border-width: 1vw;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-left-width: 1.4vw;
+}
+.seerc {
+    width: 40%;
+}
+.graident {
+    background-image: linear-gradient(#ff0000, #ff9d44);
+    z-index: -1;
+    width: 80%;
+    height: 40vh;
+    font-size: 900%;
+    color: black;
+}
