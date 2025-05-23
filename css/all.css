@@ -2,16 +2,12 @@
     font-family: 'soulmaze';
     src: url('../fonts/MADE\ Soulmaze\ PERSONAL\ USE.otf');
 }
-@font-face {
-    font-family: 'franklin-gothic-heavy';
-    src: url('../fonts/FRAHV.TTF');
-}
 body {
     background-color: black;
     font-family: soulmaze;
 }
 .bodytext {
-    font-family: franklin-gothic-heavy;
+    font-family: 'Franklin Gothic Heavy';
     font-weight: bolder;
 }
 .here {
