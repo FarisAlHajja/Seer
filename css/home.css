@@ -31,3 +31,30 @@
     font-size: 900%;
     color: black;
 }
+h1 {
+    position: absolute;
+    color: #FF672E;
+    font-size: 60px;
+    margin-left: 55%;
+    margin-top: 23%;
+    z-index: 2;
+}
+span {
+    color: #FF8D44;
+}
+button {
+    width: fit-content;
+    background-color: #FFCC44;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 4%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttons {
+    z-index: 2;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 32%;
+}
