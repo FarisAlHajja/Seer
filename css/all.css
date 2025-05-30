@@ -10,6 +10,9 @@ body {
     background-color: black;
     font-family: soulmaze;
 }
+nav {
+    font-size: 22px;
+}
 .bodytext {
     font-family: 'Franklin Gothic Heavy', fgh;
     font-weight: bolder;
