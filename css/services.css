@@ -1,0 +1,22 @@
+.white {
+    color: white;
+    font-size: 100px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+.red {
+    color: #ff0000;
+}
+.orange {
+    color: #db682e;
+}
+.yellow {
+    color: #f3c340;
+}
+.dancers img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 900px;
+}

@@ -1,0 +1,72 @@
+body {
+    max-height:100%;
+}
+.stars {
+    height: 98vh;
+    width: 100%;
+}
+.starsc {
+    position: absolute;
+    z-index: -10;
+    width: 40%;
+    margin-left: -20px;
+    top: 0;
+}
+.seer {
+    width: 100%;
+    border-image: linear-gradient(to bottom, #fff21e 0%, #ff0a17 100%) 1;
+    border-width: 1vw;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-left-width: 1.4vw;
+}
+.seerc {
+    margin-top: 150px;
+    position: absolute;
+    width: 450px;
+    z-index: 2;
+    margin-left: 200px;
+}
+.graident {
+    margin-left: 420px;
+    margin-top: 80px;
+    position: absolute;
+    background-image: linear-gradient(#ff0000, #ff9d44);
+    z-index: 0;
+    width: 800px;
+    height: fit-content;
+    font-size: 100px;
+    color: black;
+    padding: auto;
+    padding-left: 250px;
+    line-height: 1;
+}
+h1 {
+    position: absolute;
+    color: #FF672E;
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: 320px;
+    z-index: 2;
+    line-height: 1;
+}
+span {
+    color: #FF8D44;
+}
+button {
+    width: fit-content;
+    background-color: #FFCC44;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 4%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttons {
+    z-index: 2;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 420px;
+}

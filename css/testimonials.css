@@ -1,0 +1,30 @@
+h1 {
+    color: white;
+}
+.box {
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+    margin: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.circle {
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: yellow;
+    border-radius: 90px;
+}
+p  {
+    margin: 10px;
+}
+.signoff {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+}

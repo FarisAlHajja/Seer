@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'soulmaze';
+    src: url('../fonts/MADE\ Soulmaze\ PERSONAL\ USE.otf');
+}
+@font-face {
+    font-family: 'fgh';
+    src: url('../fonts/FRAHV.TTF');
+}
+body {
+    background-color: black;
+    font-family: soulmaze;
+}
+nav {
+    font-size: 22px;
+}
+.bodytext {
+    font-family: 'Franklin Gothic Heavy', fgh;
+    font-weight: bolder;
+}
+.here {
+    color: #f3c340;
+}
+.nav_one {
+    color: #e1992b;
+}
+.nav_two {
+    color: #c15b27;
+}
+.nav_three {
+    color:#ee7410da;
+}
+.nav_four {
+    color:#ff0000c2;
+}
+.here:hover {
+    color: #f3c340;
+}
+.nav_one:hover {
+    color: #e1982bb7;
+}
+.nav_two:hover {
+    color: #c15a27b6;
+}
+.nav_three:hover {
+    color:#ee74109f;
+}
+.nav_four:hover {
+    color:#ff000081;
+}
+.header {
+    height: 10vh;
+}
+.header, .footer {
+    font-size: 2em;
+}
+.yellow {
+    color: #f3c340;
+}
+.rig {
+    margin-right: 100px;
+    color:#c15b27;
+}
+.jump {
+    transition: transform 1.2s;
+}
+.jump:hover {
+    transform: scale(1.2);
+}
